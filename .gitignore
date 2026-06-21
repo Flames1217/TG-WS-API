@@ -1,1 +1,3 @@
-bm9kZV9tb2R1bGVzCi53cmFuZ2xlcgpkaXN0Cg==
+node_modules
+.wrangler
+dist

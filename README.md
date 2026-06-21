@@ -1,1 +1,25 @@
-IyB0Zy13cy1hcGkKCkNsb3VkZmxhcmUgV29ya2VyIHByb3h5IGZvciBUZWxlZ3JhbSBXZWIgdHJhbnNwb3J0cy4KCiMjIFJvdXRlIGZvcm1hdAoKYGBgdGV4dApodHRwczovLzx3b3JrZXItZG9tYWluPi88dGVsZWdyYW0taG9zdD4vPHBhdGg+CndzczovLzx3b3JrZXItZG9tYWluPi88dGVsZWdyYW0taG9zdD4vPHBhdGg+CmBgYAoKRXhhbXBsZXM6CgpgYGB0ZXh0CndzczovL3RnLXdzLWFwaS5leGFtcGxlLndvcmtlcnMuZGV2L3BsdXRvLndlYi50ZWxlZ3JhbS5vcmcvYXBpd3MKaHR0cHM6Ly90Zy13cy1hcGkuZXhhbXBsZS53b3JrZXJzLmRldi9wbHV0by53ZWIudGVsZWdyYW0ub3JnL2FwaXcxCmBgYAoKIyMgQ29tbWFuZHMKCmBgYGJhc2gKbnBtIGluc3RhbGwKbnBtIHRlc3QKbnBtIHJ1biBkZXBsb3kKYGBgCg==
+# tg-ws-api
+
+Cloudflare Worker proxy for Telegram Web transports.
+
+## Route format
+
+```text
+https://<worker-domain>/<telegram-host>/<path>
+wss://<worker-domain>/<telegram-host>/<path>
+```
+
+Examples:
+
+```text
+wss://tg-ws-api.example.workers.dev/pluto.web.telegram.org/apiws
+https://tg-ws-api.example.workers.dev/pluto.web.telegram.org/apiw1
+```
+
+## Commands
+
+```bash
+npm install
+npm test
+npm run deploy
+```

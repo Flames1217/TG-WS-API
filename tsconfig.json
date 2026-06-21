@@ -1,1 +1,16 @@
-ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAyMiIsCiAgICAibW9kdWxlIjogIkVTTmV4dCIsCiAgICAibW9kdWxlUmVzb2x1dGlvbiI6ICJCdW5kbGVyIiwKICAgICJzdHJpY3QiOiB0cnVlLAogICAgIm5vRW1pdCI6IHRydWUsCiAgICAidHlwZXMiOiBbCiAgICAgICJAY2xvdWRmbGFyZS93b3JrZXJzLXR5cGVzIiwKICAgICAgInZpdGVzdC9nbG9iYWxzIgogICAgXQogIH0sCiAgImluY2x1ZGUiOiBbCiAgICAic3JjLyoqLyoudHMiCiAgXQp9Cg==
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "types": [
+      "@cloudflare/workers-types",
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

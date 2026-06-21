@@ -1,1 +1,16 @@
-ewogICJuYW1lIjogInRnLXdzLWFwaSIsCiAgInByaXZhdGUiOiB0cnVlLAogICJ2ZXJzaW9uIjogIjAuMS4wIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ3cmFuZ2xlciBkZXYiLAogICAgImRlcGxveSI6ICJ3cmFuZ2xlciBkZXBsb3kiLAogICAgInRlc3QiOiAidml0ZXN0IHJ1biIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAidHlwZXNjcmlwdCI6ICJeNS42LjMiLAogICAgInZpdGVzdCI6ICJeMi4xLjgiLAogICAgIndyYW5nbGVyIjogIl40LjIyLjAiCiAgfQp9Cg==
+{
+  "name": "tg-ws-api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8",
+    "wrangler": "^4.22.0"
+  }
+}
