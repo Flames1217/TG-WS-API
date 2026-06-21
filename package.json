@@ -1,13 +1,1 @@
-{
-  "name": "tg-ws-api",
-  "version": "1.0.0",
-  "description": "Cloudflare Worker — WebSocket proxy for Telegram MTProto connections",
-  "private": true,
-  "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy"
-  },
-  "devDependencies": {
-    "wrangler": "^4.71.0"
-  }
-}
+ewogICJuYW1lIjogInRnLXdzLWFwaSIsCiAgInByaXZhdGUiOiB0cnVlLAogICJ2ZXJzaW9uIjogIjAuMS4wIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ3cmFuZ2xlciBkZXYiLAogICAgImRlcGxveSI6ICJ3cmFuZ2xlciBkZXBsb3kiLAogICAgInRlc3QiOiAidml0ZXN0IHJ1biIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAidHlwZXNjcmlwdCI6ICJeNS42LjMiLAogICAgInZpdGVzdCI6ICJeMi4xLjgiLAogICAgIndyYW5nbGVyIjogIl40LjIyLjAiCiAgfQp9Cg==
